@@ -1,0 +1,18 @@
+# Core
+python-telegram-bot[webhooks]==21.*
+flask>=3.0
+yt-dlp>=2024.1.1
+aiohttp>=3.9
+aiofiles>=23.0
+python-dotenv>=1.0
+
+# Optional but recommended
+ffmpeg-python>=0.2.0     # programmatic ffmpeg access (yt-dlp uses system ffmpeg directly)
+
+# Storage / caching (optional)
+# redis>=5.0
+# aioredis>=2.0
+
+# Dev / testing
+# pytest>=8.0
+# pytest-asyncio>=0.23
